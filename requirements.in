@@ -11,6 +11,7 @@ hiredis
 psycopg2
 celery
 pyyaml
+django-q
 
 # some that take long to compile
 pillow
