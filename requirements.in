@@ -12,6 +12,12 @@ psycopg2
 celery
 pyyaml
 django-q
+raven
+brotlipy
+whitenoise
+django_compressor
+dj-database-url
+requests
 
 # some that take long to compile
 pillow

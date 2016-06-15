@@ -7,24 +7,36 @@
 
 amqp==1.4.9               # via kombu
 anyjson==0.3.3            # via kombu
-arrow==0.7.0              # via django-q
+arrow==0.8.0              # via django-q
 billiard==3.3.0.23        # via celery
 blessed==1.14.1           # via django-q
+brotlipy==0.3.0
 celery==3.1.23
+cffi==1.6.0               # via brotlipy
+contextlib2==0.5.3        # via raven
+dj-database-url==0.4.1
+django-appconf==1.0.2     # via django-compressor
+django-compressor==2.0
 django-picklefield==0.3.2  # via django-q
-django-q==0.7.17
-django-redis==4.4.2
-django==1.9.6
+django-q==0.7.18
+django-redis==4.4.3
+django==1.9.7
 future==0.15.2            # via django-q
 hiredis==0.2.0
 kombu==3.0.35             # via celery
 libsass==0.11.1
 pillow==3.2.0
 psycopg2==2.6.1
+pycparser==2.14           # via cffi
 python-dateutil==2.5.3    # via arrow
 pytz==2016.4              # via celery
 pyyaml==3.11
+raven==5.20.0
+rcssmin==1.0.6            # via django-compressor
 redis==2.10.5
+requests==2.10.0
+rjsmin==1.0.12            # via django-compressor
 six==1.10.0               # via blessed, libsass, python-dateutil
-uwsgi==2.0.12
+uwsgi==2.0.13.1
 wcwidth==0.1.6            # via blessed
+whitenoise==3.2
