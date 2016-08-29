@@ -25,13 +25,13 @@ future==0.15.2            # via django-q
 hiredis==0.2.0
 kombu==3.0.35             # via celery
 libsass==0.11.1
-pillow==3.3.0
+pillow==3.3.1
 psycopg2==2.6.2
 pycparser==2.14           # via cffi
 python-dateutil==2.5.3    # via arrow
 pytz==2016.6.1            # via celery
-pyyaml==3.11
-raven==5.24.3
+pyyaml==3.12
+raven==5.25.0
 rcssmin==1.0.6            # via django-compressor
 redis==2.10.5
 requests==2.11.1
