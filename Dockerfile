@@ -13,7 +13,7 @@ RUN pip install --upgrade pip; \
     pip install -r /tmp/requirements.txt; \
     rm /tmp/requirements.txt
 
-RUN curl -sL https://deb.nodesource.com/setup_6.x | bash;\
+RUN curl -sL https://deb.nodesource.com/setup_7.x | bash;\
 	    apt-get install -y nodejs;\
 	    apt-get -y autoremove;\
 	    npm install -g bower bower-installer \
