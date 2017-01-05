@@ -4,12 +4,13 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-amqp==2.1.1               # via kombu
-arrow==0.8.0              # via django-q
+
+amqp==2.1.4               # via kombu
+arrow==0.10.0             # via django-q
 billiard==3.5.0.2         # via celery
 blessed==1.14.1           # via django-q
 brotlipy==0.6.0
-celery==4.0.0
+celery==4.0.2
 cffi==1.9.1               # via brotlipy
 contextlib2==0.5.4        # via raven
 dj-database-url==0.4.1
@@ -17,25 +18,26 @@ django-appconf==1.0.2     # via django-compressor
 django-compressor==2.1
 django-picklefield==0.3.2  # via django-q
 django-q==0.7.18
-django-redis==4.6.0
-django==1.10.3
+django-redis==4.7.0
+django==1.10.5
 future==0.16.0            # via django-q
 hiredis==0.2.0
-kombu==4.0.0              # via celery
-libsass==0.11.2
-pillow==3.4.2
+kombu==4.0.2              # via celery
+libsass==0.12.1
+olefile==0.43             # via pillow
+pillow==4.0.0
 psycopg2==2.6.2
 pycparser==2.17           # via cffi
 python-dateutil==2.6.0    # via arrow
-pytz==2016.7              # via celery
+pytz==2016.10             # via celery
 pyyaml==3.12
-raven==5.31.0
+raven==5.32.0
 rcssmin==1.0.6            # via django-compressor
 redis==2.10.5
-requests==2.11.1
+requests==2.12.4
 rjsmin==1.0.12            # via django-compressor
 six==1.10.0               # via blessed, libsass, python-dateutil
 uwsgi==2.0.14
 vine==1.1.3               # via amqp
 wcwidth==0.1.7            # via blessed
-whitenoise==3.2.2
+whitenoise==3.2.3
